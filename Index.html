@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Spalania</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+        </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Kalkulator Spalania</h1>
+
+    <div class="form-group">
+        <label for="distance">Przejechana odległość 🛣️(km):</label>
+        <input type="number" id="distance" placeholder="Wpisz odległość">
+    </div>
+
+    <div class="form-group">
+        <label for="fuel">Zużyte paliwo 🛢️(L):</label>
+        <input type="number" id="fuel" placeholder="Wpisz zużycie paliwa">
+    </div>
+
+    <div class="form-group">
+        <label for="fuelPrice">Cena paliwa za litr 💰(PLN):</label>
+        <input type="number" id="fuelPrice" step="0.01" min="0" placeholder="Wpisz cenę paliwa">
+    </div>
+
+    <button onclick="calculateFuelConsumption()">Oblicz spalanie i koszt</button>
+    
+    <div class="result" id="result"></div>
+</body>
+</html>
