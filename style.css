@@ -72,10 +72,10 @@ button:hover {
 
 .footer {
   text-align: center;
-  font-family: "Teko", Arial, sans-serif;
+  font-family: "Space Mono", serif;
   font-weight: 200;
   color: #585757;
-  font-size: 0.9em;
+  font-size: 0.6em;
 }
 
 .footer a {
